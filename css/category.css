@@ -1,0 +1,131 @@
+.above__wrapper {
+    padding-top: 40px;
+    padding-bottom: 50px;   
+}
+
+.general__styling-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #303030;
+    font-size: 1.55em;
+}
+
+.general__styling__show-more {
+    font-style: italic;
+    color: #606060;
+    display: block;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+.general__styling__show-more:hover {
+    text-decoration: underline;
+}
+.image__wrapper {
+    width: 200px;
+    
+}
+
+
+.image__style {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: 200px;
+}
+
+.coat__block,
+.outerwear__block,
+.tshirt__block {
+    transition: .5s;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 169, 169);
+}
+
+.coat__block:hover,
+.outerwear__block:hover,
+.tshirt__block:hover {
+    
+    transform: scale(1.1);
+    box-shadow: 0px 0px 14px 1px rgba(110, 130, 161, 0.66);
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(110, 130, 161, 0.66);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(110, 130, 161, 0.66);
+}
+
+.coats__main,
+.outerwear__main,
+.tshirt__main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.coat__heading,
+.outerwear__heading,
+.tshirt__heading {
+    text-align: center;
+}
+
+
+.coat__price,
+.outerwear__price,
+.tshirt__price {
+    text-align: center;
+}
+
+.outerwear__main-heading,
+.tshirt__main-heading {
+    padding-top: 30px;
+}
+
+/*                       ==========================================================          */
+/*                                   STYLING OF RECENT VIEWED GOODS                         */
+
+.recent-goods__block {
+    width: 1100px;
+    margin: 50px auto 30px auto;
+    overflow: hidden;
+}
+.recent__headline {
+    font-family: 'Lato', sans-serif;
+    color: #303030;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    
+}
+.recent-goods__list {
+    position: relative;
+    width: 9999px;
+    left: 0;
+}
+
+.recent-goods__item {
+    display: inline-block;
+    transition: .5s;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 169, 169);
+    max-width: 100%;
+    width: 150px;
+    margin: 0 0 10px 10px;
+}
+.recent-goods__item:hover {
+    box-shadow: 0px 0px 14px 1px rgba(110, 130, 161, 0.66);
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(110, 130, 161, 0.66);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(110, 130, 161, 0.66);
+}
+
+.recent-photo__img {
+    height: 150px;
+}
+
+.name-goods__headline {
+    font-family: 'Lato', sans-serif;
+    color: #303030;
+    font-size: 0.875em;
+    text-align: center;
+}

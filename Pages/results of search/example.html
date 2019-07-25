@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css"> -->
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
+    <!-- <script src="main.js"></script> -->
+</head>
+
+<body>
+<style>
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.54;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ 
+.headlines-row,
+.headlines-row-information {
+    border: 1px solid black;
+}
+.headlines-row::after,
+.headlines-row-information::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.headlines-row .headline__item{
+display: inline-block;
+}
+
+.headline__item--product,
+.headline__item--description {
+    padding-left: 25px;
+    float: left;
+}
+.headlines-row .headline__item--description,
+.headlines-row-information .headline__item--description,{
+    padding-left: 40px;
+}
+/* .headline__item--product, {
+    padding-left: 20px;
+} */
+.headline__item--description,
+.headlines-row-information .headline__item--description{
+    width: 45%;
+}
+.right__side {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    float: right;
+}
+.image {
+    margin-top: 15px;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+a{    
+    border: 1px solid #a7a7a7;
+    width: 100px;
+    display: block;
+    margin-left: 5px;
+}
+/* .headline__item--description--col {
+    
+} */
+    </style>
+
+<div class="table">
+    <div class="headlines-row">
+        <div class="left__side">
+        <h1 class="headline__item headline__item--product">Product</h1>
+        <h1 class="headline__item headline__item--description">Description</h1>
+    </div>
+        <div class="right__side">
+        <h1 class="headline__item headline__item--color">Color</h1>
+        <h1 class="headline__item headline__item--size">Size</h1>
+        <h1 class="headline__item headline__item--qty">Qty</h1>
+        <h1 class="headline__item headline__item--amount">Amount</h1>
+        <h1 class="headline__item headline__item--delete">Delete</h1>
+    </div>
+    </div>
+    <div class="headlines-row-information">
+            <div class="left__side">
+            <h1 class="headline__item headline__item--product "><a href=""> <img class="image" src="http://s4.fotokto.ru/photo/full/536/5368232.jpg" alt=""></a></h1>
+            <h1 class="headline__item headline__item--description--col">Beautiful Coats 1</h1>
+        </div>
+            <div class="right__side">
+            <h1 class="headline__item headline__item--color">Red</h1>
+            <h1 class="headline__item headline__item--size">M</h1>
+            <h1 class="headline__item headline__item--qty"><input type="number"></h1>
+            <h1 class="headline__item headline__item--amount">666.66 $</h1>
+            <h1 class="headline__item headline__item--delete">X</h1>
+        </div>
+        </div>
+</div>
+
+
+<table class="goods-information">
+        <tr class="row-headlines">
+        <th class="cell__headlines cell__headlines--product">Product</th>
+        <th class="cell__headlines cell__headlines--description">Description</th>
+        <th class="cell__headlines cell__headlines--color">Color</th>
+        <th class="cell__headlines cell__headlines--size">Size</th>
+        <th class="cell__headlines cell__headlines--qty">Qty</th>
+        <th class="cell__headlines cell__headlines--amount">Amount</th>
+        <th class="cell__headlines cell__headlines--delete">Delete</th>
+    </tr>
+    
+        ${templateBasket.map(templateBasketInformation).join("")}
+        
+        <div>
+    </table>
+
+
+</body>
+
+</html>

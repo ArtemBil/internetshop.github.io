@@ -1,0 +1,912 @@
+[{
+        "Women": [{     
+                "coats": [{
+                        "articul": 1000,
+                        "id": "#id=100",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=women#coats",
+                        "name": "Воoriva",
+                        "price": 452.96,
+                        "currency": "$",
+                        "color": "Brown",
+                        "category": "coats",
+                        "imageUrl": "/img/Women/coats/1.jpg",
+                        "mini_photos": [
+                            "../../img/Women/coats/1.jpg",
+                             "../../img/Women/coats/First small/1.jpg",
+                             "../../img/Women/coats/First small/2.jpg",
+                             "../../img/Women/coats/First small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+
+                    },
+                    {
+                        "articul": 1001,
+                        "id": "#id=101",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=women#coats",
+                        "name": "Cher Nika",
+                        "price": 649.99,
+                        "currency": "$",
+                        "color": "Seashell",
+                        "category": "coats",
+                        "imageUrl": "../../img/Women/coats/2.jpg",
+                        "mini_photos": [
+                            "../../img/Women/coats/2.jpg",
+                             "../../img/Women/coats/Second small/1.jpg",
+                             "../../img/Women/coats/Second small/2.jpg",
+                             "../../img/Women/coats/Second small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+
+                    },
+                    {
+                        "articul": 1002,
+                        "id": "#id=102",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=women#coats",
+                        "name": "DolceDonna",
+                        "price": 679.45,
+                        "currency": "$",
+                        "color": "Blue",
+                        "category": "coats",
+                        "imageUrl": "../../img/Women/coats/3.jpg",
+                        "mini_photos": [ 
+                            "../../img/Women/coats/3.jpg",
+                             "../../img/Women/coats/Third small/1.jpg",
+                             "../../img/Women/coats/Third small/2.jpg",
+                             "../../img/Women/coats/Third small/3.jpg"
+                            ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 1003,
+                        "id": "#id=103",
+                        "name": "Gasse",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=women#coats",
+                        "price": 629.87,
+                        "currency": "$",
+                        "color": "Grey",
+                        "category": "coats",
+                        "imageUrl": "../../img/Women/coats/4.jpg",
+                        "mini_photos": [
+                            "../../img/Women/coats/4.jpg",
+                            "../../img/Women/coats/Fourth small/1.jpg",
+                            "../../img/Women/coats/Fourth small/2.jpg",
+                            "../../img/Women/coats/Fourth small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    }
+                ]
+            },
+
+            {
+                "outerwears": [{
+                        "articul": 1004,
+                        "id": "#id=104",
+                        "name": "Golda",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=women#outerwears",
+                        "price": 69.55,
+                        "currency": "$",
+                        "color": "Seashell",
+                        "category": "outerwears",
+                        "imageUrl": "../../img/Women/outerwears/1.jpg",
+                        "mini_photos": [
+                            "../../img/Women/outerwears/1.jpg",
+                            "../../img/Women/outerwears/First small/1.jpg",
+                            "../../img/Women/outerwears/First small/2.jpg",
+                            "../../img/Women/outerwears/First small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 1005,
+                        "id": "#id=105",
+                        "name": "Love",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=women#outerwears",
+                        "price": 89.54,
+                        "currency": "$",
+                        "color": "White",
+                        "category": "outerwears",
+                        "imageUrl": "../../img/Women/outerwears/2.jpg",
+                        "mini_photos": [
+                            "../../img/Women/outerwears/2.jpg",
+                            "../../img/Women/outerwears/Second small/1.jpg",
+                            "../../img/Women/outerwears/Second small/2.jpg",
+                            "../../img/Women/outerwears/Second small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 1006,
+                        "id": "#id=106",
+                        "name": "Prada",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=women#outerwears",
+                        "price": 49.99,
+                        "currency": "$",
+                        "color": "Grey",
+                        "category": "outerwears",
+                        "imageUrl": "../../img/Women/outerwears/3.jpg",
+                        "mini_photos": [
+                            "../../img/Women/outerwears/3.jpg",
+                            "../../img/Women/outerwears/Third small/1.jpg",
+                            "../../img/Women/outerwears/Third small/2.jpg",
+                            "../../img/Women/outerwears/Third small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 1007,
+                        "id": "#id=107",
+                        "name": "Missoni",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=women#outerwears",
+                        "price": 37.71,
+                        "currency": "$",
+                        "color": "Black",
+                        "category": "outerwears",
+                        "imageUrl": "../../img/Women/outerwears/4.jpg",
+                        "mini_photos": [
+                            "../../img/Women/outerwears/4.jpg",
+                            "../../img/Women/outerwears/Fourth small/1.jpg",
+                            "../../img/Women/outerwears/Fourth small/2.jpg",
+                            "../../img/Women/outerwears/Fourth small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    }
+                ]
+            },
+
+            {
+                "tshirts": [{
+                        "articul": 1008,
+                        "id": "#id=108",
+                        "name": "Stefanel",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=women#tshirts",
+                        "price": 9.99,
+                        "currency": "$",
+                        "color": "White&Red",
+                        "category": "tshirts",
+                        "imageUrl": "../../img/Women/t-shirts/1.jpg",
+                        "mini_photos": [
+                            "../../img/Women/t-shirts/1.jpg",
+                            "../../img/Women/t-shirts/First small/1.jpg",
+                            "../../img/Women/t-shirts/First small/2.jpg",
+                            "../../img/Women/t-shirts/First small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+
+                    },
+                    {
+                        "articul": 1009,
+                        "id": "#id=109",
+                        "name": "Levi's",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=women#tshirts",
+                        "price": 14.99,
+                        "currency": "$",
+                        "color": "White",
+                        "category": "tshirts",
+                        "imageUrl": "../../img/Women/t-shirts/2.jpg",
+                        "mini_photos": [
+                            "../../img/Women/t-shirts/2.jpg",
+                            "../../img/Women/t-shirts/Second small/1.jpg",
+                            "../../img/Women/t-shirts/Second small/2.jpg",
+                            "../../img/Women/t-shirts/Second small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 1010,
+                        "id": "#id=110",
+                        "name": "Mustang",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=women#tshirts",
+                        "price": 11.85,
+                        "currency": "$",
+                        "color": "Black",
+                        "category": "tshirts",
+                        "imageUrl": "../../img/Women/t-shirts/3.jpg",
+                        "mini_photos": [
+                            "../../img/Women/t-shirts/3.jpg",
+                            "../../img/Women/t-shirts/Third small/1.jpg",
+                            "../../img/Women/t-shirts/Third small/2.jpg",
+                            "../../img/Women/t-shirts/Third small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 1011,
+                        "id": "#id=111",
+                        "name": "Mavi",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=women#tshirts",
+                        "price": 4.5,
+                        "currency": "$",
+                        "color": "Black",
+                        "category": "tshirts",
+                        "imageUrl": "../../img/Women/t-shirts/4.jpg",
+                        "mini_photos": [
+                            "../../img/Women/t-shirts/4.jpg",
+                            "../../img/Women/t-shirts/Fourth small/1.jpg",
+                            "../../img/Women/t-shirts/Fourth small/2.jpg",
+                            "../../img/Women/t-shirts/Fourth small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    
+
+    {
+        "Men": [{
+                "coats": [{
+                        "articul": 2000,
+                        "id": "#id=200",
+                        "name": "EasyEasy",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=men#coats",
+                        "price": 542.56,
+                        "currency": "$",
+                        "color": "Darkgrey",
+                        "category": "coats",
+                        "imageUrl": "../../img/Men/coats/1.jpg",
+                        "mini_photos": [
+                            "../../img/Men/coats/1.jpg",
+                            "../../img/Men/coats/First small/1.jpg",
+                            "../../img/Men/coats/First small/2.jpg",
+                            "../../img/Men/coats/First small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+
+                    },
+                    {
+                        "articul": 2001,
+                        "id": "#id=201",
+                        "name": "NAT Atelier",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=men#coats",
+                        "price": 452.23,
+                        "currency": "$",
+                        "color": "Darkblue",
+                        "category": "coats",
+                        "imageUrl": "../../img/Men/coats/2.jpg",
+                        "mini_photos": [
+                            "../../img/Men/coats/2.jpg",
+                             "../../img/Men/coats/Second small/1.jpg",
+                             "../../img/Men/coats/Second small/2.jpg",
+                             "../../img/Men/coats/Second small/3.jpg"
+                            ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+
+                    },
+                    {
+                        "articul": 2002,
+                        "id": "#id=202",
+                        "name": "Dock",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=men#coats",
+                        "price": 134.56,
+                        "currency": "$",
+                        "color": "Grey",
+                        "category": "coats",
+                        "imageUrl": "../../img/Men/coats/3.jpg",
+                        "mini_photos": [
+                            "../../img/Men/coats/3.jpg",
+                            "../../img/Men/coats/Third small/1.jpg",
+                            "../../img/Men/coats/Third small/2.jpg",
+                            "../../img/Men/coats/Third small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 2003,
+                        "id": "#id=203",
+                        "name": "Beautiful coat 4",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=men#coats",
+                        "price": 364.75,
+                        "currency": "$",
+                        "color": "Darkblue",
+                        "category": "coats",
+                        "imageUrl": "../../img/Men/coats/4.jpg",
+                        "mini_photos": [
+                            "../../img/Men/coats/4.jpg",
+                            "../../img/Men/coats/Fourth small/1.jpg",
+                            "../../img/Men/coats/Fourth small/2.jpg",
+                            "../../img/Men/coats/Fourth small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    }
+                ]
+            },
+
+            {
+                "outerwears": [{
+                        "articul": 2004,
+                        "id": "#id=204",
+                        "name": "Beautiful outerwear 1",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=men#outerwears",
+                        "price": 37.99,
+                        "currency": "$",
+                        "color": "Darkblue",
+                        "category": "outerwears",
+                        "imageUrl": "../../img/Men/outerwears/1.jpg",
+                        "mini_photos": [
+                            "../../img/Men/outerwears/1.jpg",
+                            "../../img/Men/outerwears/First small/1.jpg",
+                            "../../img/Men/outerwears/First small/2.jpg",
+                            "../../img/Men/outerwears/First small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 2005,
+                        "id": "#id=205",
+                        "name": "Beautiful outerwear 2",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=men#outerwears",
+                        "price": 65.87,
+                        "currency": "$",
+                        "color": "Black",
+                        "category": "outerwears",
+                        "imageUrl": "../../img/Men/outerwears/2.jpg",
+                        "mini_photos": [
+                            "../../img/Men/outerwears/2.jpg",
+                            "../../img/Men/outerwears/Second small/1.jpg",
+                            "../../img/Men/outerwears/Second small/2.jpg",
+                            "../../img/Men/outerwears/Second small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 2006,
+                        "id": "#id=206",
+                        "name": "Beautiful outerwear 3",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=men#outerwears",
+                        "price": 46.47,
+                        "currency": "$",
+                        "color": "Black",
+                        "category": "outerwears",
+                        "imageUrl": "../../img/Men/outerwears/3.jpg",
+                        "mini_photos": [
+                            "../../img/Men/outerwears/3.jpg",
+                            "../../img/Men/outerwears/Third small/1.jpg",
+                            "../../img/Men/outerwears/Third small/2.jpg",
+                            "../../img/Men/outerwears/Third small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 2007,
+                        "id": "#id=207",
+                        "name": "Beautiful outerwear 4",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=men#outerwears",
+                        "price": 32.56,
+                        "currency": "$",
+                        "color": "Mardi Gras",
+                        "category": "outerwears",
+                        "imageUrl": "../../img/Men/outerwears/4.jpg",
+                        "mini_photos": [
+                            "../../img/Men/outerwears/4.jpg",
+                            "../../img/Men/outerwears/Fourth small/1.jpg",
+                            "../../img/Men/outerwears/Fourth small/2.jpg",
+                            "../../img/Men/outerwears/Fourth small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    }
+                ]
+            },
+
+            {
+                "tshirts": [{
+                        "articul": 2008,
+                        "id": "#id=208",
+                        "name": "Beautiful T-shirt 1",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=men#tshirts",
+                        "price": 6.99,
+                        "currency": "$",
+                        "color": "Blue",
+                        "category": "tshirts",
+                        "imageUrl": "../../img/Men/t-shirts/1.jpg",
+                        "mini_photos": [
+                            "../../img/Men/t-shirts/1.jpg",
+                            "../../img/Men/t-shirts/First small/1.jpg",
+                            "../../img/Men/t-shirts/First small/2.jpg",
+                            "../../img/Men/t-shirts/First small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+
+                    },
+                    {
+                        "articul": 2009,
+                        "id": "#id=209",
+                        "name": "Beautiful T-shirt 2",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=men#tshirts",
+                        "price": 19.24,
+                        "currency": "$",
+                        "color": "Black",
+                        "category": "tshirts",
+                        "imageUrl": "../../img/Men/t-shirts/2.jpg",
+                        "mini_photos": [
+                            "../../img/Men/t-shirts/2.jpg",
+                            "../../img/Men/t-shirts/Second small/1.jpg",
+                            "../../img/Men/t-shirts/Second small/2.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 2010,
+                        "id": "#id=210",
+                        "name": "Beautiful T-shirt 3",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=men#tshirts",
+                        "price": 10.23,
+                        "currency": "$",
+                        "color": "Wheat",
+                        "category": "tshirts",
+                        "imageUrl": "../../img/Men/t-shirts/3.jpg",
+                        "mini_photos": [
+                            "../../img/Men/t-shirts/3.jpg",
+                            "../../img/Men/t-shirts/Third small/1.jpg",
+                            "../../img/Men/t-shirts/Third small/2.jpg",
+                            "../../img/Men/t-shirts/Third small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 2011,
+                        "id": "#id=211",
+                        "name": "Beautiful T-shirt 4",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=men#tshirts",
+                        "price": 15.56,
+                        "currency": "$",
+                        "color": "White",
+                        "category": "tshirts",
+                        "imageUrl": "../../img/Men/t-shirts/4.jpg",
+                        "mini_photos": [
+                            "../../img/Men/t-shirts/4.jpg",
+                            "../../img/Men/t-shirts/Fourth small/1.jpg",
+                            "../../img/Men/t-shirts/Fourth small/2.jpg",
+                            "../../img/Men/t-shirts/Fourth small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "Kids": [{
+                "coats": [{
+                        "articul": 3000,
+                        "id": "#id=300",
+                        "name": "Beautiful coat 1",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=kids#coats",
+                        "price": 333.65,
+                        "currency": "$",
+                        "color": "Red",
+                        "category": "coats",
+                        "imageUrl": "../../img/Kids/coats/1.jpg",
+                        "mini_photos": [
+                            "../../img/Kids/coats/1.jpg",
+                            "../../img/Kids/coats/First small/1.jpg",
+                            "../../img/Kids/coats/First small/2.jpg",
+                            "../../img/Kids/coats/First small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+
+                    },
+                    {
+                        "articul": 3001,
+                        "id": "#id=301",
+                        "name": "Beautiful coat 2",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=kids#coats",
+                        "price": 132.74,
+                        "currency": "$",
+                        "color": "Darkblue",
+                        "category": "coats",
+                        "imageUrl": "../../img/Kids/coats/2.jpg",
+                        "mini_photos": [
+                            "../../img/Kids/coats/2.jpg",
+                            "../../img/Kids/coats/Second small/1.jpg",
+                            "../../img/Kids/coats/Second small/2.jpg",
+                            "../../img/Kids/coats/Second small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+
+                    },
+                    {
+                        "articul": 3002,
+                        "id": "#id=302",
+                        "name": "Beautiful coat 3",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=kids#coats",
+                        "price": 250.56,
+                        "currency": "$",
+                        "color": "Silver",
+                        "category": "coats",
+                        "imageUrl": "../../img/Kids/coats/3.jpg",
+                        "mini_photos": [
+                            "../../img/Kids/coats/3.jpg",
+                            "../../img/Kids/coats/Third small/1.jpg",
+                            "../../img/Kids/coats/Third small/2.jpg",
+                            "../../img/Kids/coats/Third small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 3003,
+                        "id": "#id=303",
+                        "name": "Beautiful coat 4",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=kids#coats",
+                        "price": 287.99,
+                        "currency": "$",
+                        "color": "Blue",
+                        "category": "coats",
+                        "imageUrl": "../../img/Kids/coats/4.jpg",
+                        "mini_photos": [
+                            "../../img/Kids/coats/4.jpg",
+                            "../../img/Kids/coats/Fourth small/1.jpg",
+                            "../../img/Kids/coats/Fourth small/2.jpg",
+                            "../../img/Kids/coats/Fourth small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+
+                    }
+                ]
+            },
+
+            {
+                "outerwears": [{
+                        "articul": 3004,
+                        "id": "#id=304",
+                        "name": "Beautiful outerwear 1",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=kids#outerwears",
+                        "price": 25.65,
+                        "currency": "$",
+                        "color": "Lightblue",
+                        "category": "outerwears",
+                        "imageUrl": "../../img/Kids/outerwears/1.jpg",
+                        "mini_photos": [
+                            "../../img/Kids/outerwears/1.jpg",
+                            "../../img/Kids/outerwears/First small/1.jpg",
+                            "../../img/Kids/outerwears/First small/2.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 3005,
+                        "id": "#id=305",
+                        "name": "Beautiful outerwear 2",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=kids#outerwears",
+                        "price": 41.11,
+                        "currency": "$",
+                        "color": "Black",
+                        "category": "outerwears",
+                        "imageUrl": "../../img/Kids/outerwears/2.jpg",
+                        "mini_photos": [
+                            "../../img/Kids/outerwears/2.jpg",
+                            "../../img/Kids/outerwears/Second small/1.jpg",
+                            "../../img/Kids/outerwears/Second small/2.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 3006,
+                        "id": "#id=306",
+                        "name": "Beautiful outerwear 3",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=kids#outerwears",
+                        "price": 49.99,
+                        "currency": "$",
+                        "color": "Darkblue",
+                        "category": "outerwears",
+                        "imageUrl": "../../img/Kids/outerwears/3.jpg",
+                        "mini_photos": [
+                            "../../img/Kids/outerwears/3.jpg",
+                            "../../img/Kids/outerwears/Third small/1.jpg",
+                            "../../img/Kids/outerwears/Third small/2.jpg",
+                            "../../img/Kids/outerwears/Third small/3.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 3007,
+                        "id": "#id=307",
+                        "name": "Beautiful outerwear 4",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=kids#outerwears",
+                        "price": 33.29,
+                        "currency": "$",
+                        "color": "Lightgray",
+                        "category": "outerwears",
+                        "imageUrl": "../../img/Kids/outerwears/4.jpg",
+                        "mini_photos": [
+                            "../../img/Kids/outerwears/4.jpg",
+                            "../../img/Kids/outerwears/Fourth small/1.jpg",
+                            "../../img/Kids/outerwears/Fourth small/2.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    }
+                ]
+            },
+
+            {
+                "tshirts": [{
+                        "articul": 3008,
+                        "id": "#id=308",
+                        "name": "Beautiful T-shirt 1",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=kids#tshirts",
+                        "price": 3.99,
+                        "currency": "$",
+                        "color": "Lightblue",
+                        "category": "tshirts",
+                        "imageUrl": "../../img/Kids/t-shirts/1.jpg",
+                        "mini_photos": [
+                            "../../img/Kids/t-shirts/1.jpg",
+                            "../../img/Kids/t-shirts/First small/1.jpg",
+                            "../../img/Kids/t-shirts/First small/2.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+
+                    },
+                    {
+                        "articul": 3009,
+                        "id": "#id=309",
+                        "name": "Beautiful T-shirt 2",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=kids#tshirts",
+                        "price": 9.99,
+                        "currency": "$",
+                        "color": "White",
+                        "category": "tshirts",
+                        "imageUrl": "../../img/Kids/t-shirts/2.jpg",
+                        "mini_photos": [
+                            "../../img/Kids/t-shirts/2.jpg",
+                            "../../img/Kids/t-shirts/Second small/1.jpg",
+                            "../../img/Kids/t-shirts/Second small/2.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 3010,
+                        "id": "#id=310",
+                        "name": "Beautiful T-shirt 3",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=kids#tshirts",
+                        "price": 7.79,
+                        "currency": "$",
+                        "color": "Black&White",
+                        "category": "tshirts",
+                        "imageUrl": "../../img/Kids/t-shirts/3.jpg",
+                        "mini_photos": [
+                            "../../img/Kids/t-shirts/3.jpg",
+                             "../../img/Kids/t-shirts/Third small/1.jpg",
+                             "../../img/Kids/t-shirts/Third small/2.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    },
+                    {
+                        "articul": 3011,
+                        "id": "#id=311",
+                        "name": "Beautiful T-shirt 4",
+                        "location": "http://127.0.0.1:5500/Pages/Category.html?category=kids#tshirts",
+                        "price": 12.29,
+                        "currency": "$",
+                        "color":"White",
+                        "category": "tshirts",
+                        "imageUrl": "../../img/Kids/t-shirts/4.jpg",
+                        "mini_photos": [
+                            "../../img/Kids/t-shirts/4.jpg",
+                            "../../img/Kids/t-shirts/Fourth small/1.jpg",
+                            "../../img/Kids/t-shirts/Fourth small/2.jpg"
+                        ],
+                        "sizes": {
+                            "small": "XS",
+                            "bigger": "S",
+                            "normal": "M",
+                            "big": "L",
+                            "veryBig": "XL"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

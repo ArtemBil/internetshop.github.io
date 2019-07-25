@@ -1,0 +1,519 @@
+.header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.left__Side {
+  float: left;
+  margin-top: 25px;
+}
+.right__Side {
+  float: right;
+  margin-top: 25px;
+}
+.right__Side::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo__wrapper {
+  display: inline-block;
+  margin-left: 10px;
+}
+.navigation {
+  display: inline-block;
+}
+.navigation__list {
+  margin-left: 54px;
+  margin-top: 35px;
+}
+.nav__item {
+  display: inline-block;
+  padding-left: 49px;
+}
+.lnk__nav {
+  display: block;
+  text-decoration: none;
+  color: #303030;
+  padding-bottom: 10px;
+  transition: 0.3s;
+}
+.lnk__nav:hover {
+  border-bottom: 3px solid #4e4e4e;
+}
+.nav__item:first-child {
+  padding: 0;
+}
+.wrapper__sides::after {
+  content: "";
+  display: table;
+  clear: left;
+}
+.search__Site {
+  float: right;
+  margin-right: 26px;
+  /* position: relative; */
+}
+.search__input {
+  /* position: absolute; */
+  display: none;
+  margin-right: -1px;
+  padding-left: 5px;
+  margin-top: 25px;
+  float: left;
+  width: 150px;
+  height: 42px;
+  border: 1px solid #959595;
+  cursor: pointer;
+}
+
+/* button of search */
+.hidden {
+  display: none;
+}
+
+#showSearch,
+#onSearch {
+  background: none;
+  width: 42px;
+  height: 42px;
+  border: 1px solid #959595;
+  cursor: pointer;
+  padding-top: 4px;
+  margin-top: 25px;
+}
+#showSearch .fa-search,
+#onSearch .fa-search {
+  font-size: 20px;
+}
+#basket {
+  margin-top: 10px;
+  margin-right: 50px;
+  float: right;
+}
+
+#basket .basket__element {
+  text-decoration: none;
+  color: #303030;
+}
+.main .wrapper__slider .hazy__heading {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #303030;
+  font-size: 4.5em;
+  font-weight: 400;
+  margin-top: 120px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.main .wrapper__slider .small__heading {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #303030;
+  font-style: italic;
+  font-size: 1.25em;
+  letter-spacing: 1.2px;
+  opacity: 0.7;
+}
+.main .wrapper__slider .btn__wrapper {
+  text-align: center;
+  margin-top: 70px;
+}
+.main .wrapper__slider .btn__wrapper .btn__Check-new-arrivals {
+  padding: 20px 60px;
+  background: none;
+  border: 1px solid silver;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  transition: 0.6s;
+}
+.main .wrapper__slider .btn__wrapper .btn__Check-new-arrivals:hover {
+  background-color: #222020;
+  color: #e0fff6;
+}
+.main .flex__images {
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main .flex__images .wrapper-text-photo {
+  position: relative;
+}
+.main .flex__images .image__item {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: 285px;
+  height: 295px;
+  transition: 0.5s;
+}
+.text-photo {
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 18pt;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-photo-wrapper {
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #000;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: .7s;
+}
+
+.text-photo-wrapper:hover {
+  opacity: .7;
+}
+
+/* <p class="text-photo">Good clothes</p> */
+.main .flex__images .image__item:nth-child(2):hover {
+  opacity: 0.8;
+}
+.main .flex__images .image__item:nth-child(4):hover {
+  opacity: 0.6;
+}
+.main .flex__images .image__item:nth-child(5):hover {
+  opacity: 0.6;
+}
+.main .flex__images .image__item:nth-child(7):hover {
+  opacity: 0.6;
+}
+.main .signUp__wrapper .signUp__heading {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.25em;
+  text-transform: uppercase;
+  color: #303030;
+  text-align: center;
+  padding-top: 100px;
+  letter-spacing: 1.8px;
+  font-weight: 700;
+}
+.main .signUp__wrapper .signUp__heading-small {
+  text-align: center;
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  color: #606060;
+  letter-spacing: 0.9px;
+}
+.main .signUp__wrapper .signUp__form {
+  text-align: center;
+  padding-top: 55px;
+}
+.main .signUp__wrapper .signUp__form .sign__input {
+  padding: 15px 230px 15px 10px;
+  margin-right: -4px;
+  font-style: italic;
+}
+.main .signUp__wrapper .signUp__form .sign__btn {
+  border: 1px solid #e67429;
+  background: #f68236;
+  padding: 16px 35px 16px 35px;
+  cursor: pointer;
+}
+.main .signUp__wrapper .signUp__form .sign__btn:hover {
+  background: #ff7011;
+}
+.main .lower__slider {
+  max-width: 1200px;
+  padding: 120px 0 0 0;
+  overflow: hidden;
+  display: block;
+}
+.main .lower__slider .double__wrapper {
+  position: relative;
+}
+.main .lower__slider .double__wrapper .photo__list {
+  position: relative;
+  width: 9999px;
+  left: 0;
+}
+.main .lower__slider .double__wrapper .photo__list::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.main .lower__slider .double__wrapper .photo__list .photo__list-item {
+  float: left;
+}
+.main .lower__slider .double__wrapper .photo__list .photo__list-item .photo__item {
+  width: 200px;
+  height: 120px;
+}
+.main .lower__slider .double__wrapper .arrow__left,
+.main .lower__slider .double__wrapper .arrow__right {
+  width: auto;
+  height: 79%;
+  background: #ffffff;
+  opacity: 0.6;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+}
+.main .lower__slider .double__wrapper .arrow__left {
+  position: absolute;
+  top: 0;
+}
+.main .lower__slider .double__wrapper .arrow__left .arrow__center {
+  position: absolute;
+  top: 40px;
+  left: 1px;
+}
+.main .lower__slider .double__wrapper .arrow__right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.main .lower__slider .double__wrapper .arrow__right .arrow__center {
+  position: absolute;
+  right: 1px;
+  top: 40px;
+}
+.flex__footer {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.flex__footer .theSame-Width {
+  width: 270px;
+  padding-left: 25px;
+  border-right: 1px solid silver;
+}
+.flex__footer .theSame-Width:last-child {
+  border: none;
+}
+.flex__footer .collection__link,
+.flex__footer .site__lnk,
+.flex__footer .shop__lnk {
+  display: block;
+  text-decoration: none;
+  color: #303030;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8em;
+  line-height: 23px;
+}
+.flex__footer .collection__link:hover,
+.flex__footer .site__lnk:hover,
+.flex__footer .shop__lnk:hover {
+  text-decoration: underline;
+}
+.flex__footer .collection__heading,
+.flex__footer .site__heading,
+.flex__footer .shop__heading,
+.flex__footer .social__heading {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  color: #303030;
+}
+.flex__footer .signature {
+  color: #303030;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8em;
+  line-height: 23px;
+  width: 233px;
+}
+.flex__footer .social__networks {
+  padding-top: 20px;
+}
+.flex__footer .social__networks .twitter,
+.flex__footer .social__networks .facebook,
+.flex__footer .social__networks .instagram {
+  margin-left: 5px;
+  padding: 8px 10px;
+  border: 1px solid #606060;
+}
+.flex__footer .social__networks .fa-twitter,
+.flex__footer .social__networks .fa-facebook,
+.flex__footer .social__networks .fa-instagram {
+  color: #606060;
+}
+.flex__footer .social__networks .twitter {
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  background: #d1d1d1;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+}
+
+
+/*  = = = = = = = = THANKS FOR ORDERING= = = = = = = =  */
+
+.thx-order__wrap {
+  max-width: 350px;
+  margin: 150px auto 150px auto;
+}
+.thx-order__wrap .thx-heading {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 36pt;
+  text-transform: uppercase;
+}
+.thx-order__wrap .thx-heading__small {
+  font-family: 'Lato', serif;
+  text-align: center;
+  font-style: italic;
+  color: #4e4e4e;
+  font-size: 14pt;
+}
+
+
+/*  = = = = = = = = THANKS FOR ORDERING= = = = = = = =  */
+
+#loaderMain {
+  background: rgb(19, 19, 19);
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  transition: all 1s;
+  visibility: visible;
+}
+
+
+#loaderMain #loader {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #9370DB;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+#loaderMain #loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #BA55D3;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+}
+
+#loaderMain #loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #FF00FF;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+#loaderMain.done {
+  opacity: 0;
+  visibility: hidden;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.offers {
+  height: 150px;
+  overflow-x: scroll;
+  margin-right: -1px;
+  margin-top: 25px;
+  width: 143px;
+  cursor: pointer;
+}
+.offers .offers__link {
+  display: block;
+  text-decoration: none;
+  color: #303030;
+  padding: 10px 5px;
+  
+}
+
+.offers .offers__link:hover {
+  background: silver;
+}
+.preloader-line {
+  width: 0;
+  position: fixed;
+  top: 0;
+  height: 1px;
+  background: red;
+}
+
+
+.btn-to-top__div {
+  position: fixed;
+  right: 250px;
+  bottom: 50px;
+  transition: opacity .5s;
+  z-index: 5;
+}
+
+.btn-to-top__div .fa-arrow-up {
+    font-size: 40px;
+    background-color: rgb(167, 167, 167);
+    color: black;
+    border-radius: 50%;
+    padding: 12px 15px;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: all .5s;
+  }
+
+  .hidden {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s;
+  }

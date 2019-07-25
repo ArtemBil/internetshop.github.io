@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Basket</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/app.css" />
+    <link rel="stylesheet" href="../../css/media.css" />
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/basket/basket.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" />
+    <link rel="shortcut icon" href="/img/img site/logo.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div id="loaderMain">
+        <div id="loader"></div>
+    </div>
+    <div class="btn-to-top__div hidden" id="btn-to-top"><i class="fas fa-arrow-up"></i></div>
+
+    <div class="wrapper">
+        <!-- --------  HEADER -------- -->
+        <header class="header">
+            <!-- ------- WRAPPER__SIDES -------- -->
+            <div class="wrapper__sides">
+
+                <div class="left__Side">
+                    <div class="logo__wrapper">
+                        <a href="../../Home.html" class="reload"><img src="../../img/logo.png" alt="logo"
+                                class="logo" /></a>
+                    </div>
+                </div>
+
+                <div class="right__Side">
+                    <div id="basket">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="basket__element">Basket (<span id="basketCounter">0</span>)</span>
+                    </div>
+                </div>
+
+                <form class="search__Site " id="formSearch">
+                    <input type="search" name="search" id="searching" class="search__input"
+                        placeholder="Search something..." />
+
+                    <button id="showSearch" type="button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button id="onSearch" class="hidden" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <!-- --------- Навигация по сайту -------- -->
+                <nav class="navigation">
+                    <ul class="navigation__list navigation__list--vertical">
+                        <li class="nav__item">
+                            <a href="../Category.html?category=women" class="lnk__nav">Woman</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../Category.html?category=men" class="lnk__nav">Man</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../Category.html?category=kids" class="lnk__nav">Kids</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="lnk__nav"> Coming Soon</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- --------- Конец навигации по сайту ----------- -->
+            </div>
+            <!-- ---------- END WRAPPER__SIDES ---------- -->
+        </header>
+        <!-- ----------- END HEADER ----------- -->
+
+        <!-- =============------------============ -->
+
+        <!-- --------  MAIN> -------- -->
+
+        <main class="main">
+            <div class="basket__wrapper">
+                <div class="shop__bag-heading">
+                    <h1 class="basket-headline">Your Shopping Bag</h1>
+                    <h3 class="basket-headline__small">Items reserved for limited time only</h3>
+                </div>
+                <div id="basketInformation">
+                    <!-- Динамическое добавление -->
+                </div>
+        </main>
+        <!-- -------- END MAIN --------- -->
+
+
+        <!-- =============------------============ -->
+
+
+        <!-- --------- FOOTER ---------- -->
+        <footer class="footer">
+            <div class="flex__footer">
+                <div class="block__collection theSame-Width">
+                    <h2 class="collection__heading">Collection</h2>
+                    <div class="wrapper__collection-lnk">
+                        <a href="javascript:void(0);" class="collection__link">Woman</a>
+                        <a href="javascript:void(0);" class="collection__link">Men</a>
+                        <a href="javascript:void(0);" class="collection__link">Kids</a>
+                        <a href="javascript:void(0);" class="collection__link">Comming Soon</a>
+                    </div>
+                </div>
+                <div class="block__site theSame-Width">
+                    <h2 class="site__heading">Site</h2>
+                    <div class="wrapper__site-lnk">
+                        <a href="javascript:void(0);" class="site__lnk">Terms of Service</a>
+                        <a href="javascript:void(0);" class="site__lnk">Privacy Policy</a>
+                        <a href="javascript:void(0);" class="site__lnk">Copyright Policy</a>
+                        <a href="javascript:void(0);" class="site__lnk">Press Kit</a>
+                        <a href="javascript:void(0);" class="site__lnk">Support</a>
+                    </div>
+                </div>
+                <div class="block__shop theSame-Width">
+                    <h2 class="shop__heading">Shop</h2>
+                    <div class="wrapper__shop-lnk">
+                        <a href="javascript:void(0);" class="shop__lnk">About us</a>
+                        <a href="javascript:void(0);" class="shop__lnk">Shipping Metods</a>
+                        <a href="javascript:void(0);" class="shop__lnk">Career</a>
+                        <a href="javascript:void(0);" class="shop__lnk">Contact</a>
+                    </div>
+                </div>
+                <div class="block__social theSame-Width">
+                    <h2 class="social__heading">Social</h2>
+                    <p class="signature">
+                        Shoper is made with love in Warsaw, 2014 &copy; All rights
+                        reserved. El Passion
+                    </p>
+                    <div class="social__networks">
+                        <a href="https://twitter.com/" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/" class="instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- -------- END FLEX FOOTER ---------- -->
+        </footer>
+        <!-- ------- END FOOTER --------- -->
+    </div>
+    <!-- -------- END WRAPPER ---------- -->
+    <script src="/js/Goods information/"></script>
+    <script src="/js/Loader/loader.js"></script>
+    <script src="../../js/Goods information/getSize&addToCart.js"></script>
+    <script src="../../js/Search/SearchInput.js"></script>
+    <script src="../../js/script.js"></script>
+    <script src="/js/btnToTop/toTop.js"></script>
+</body>
+
+</html>
+
+
+<!-- <ul class="list-info">
+        <div class="left__side">
+            <li class="product">Product</li>
+            <li class="description">Description</li>
+        </div>
+        <div class="right__side">
+            <li class="color">Color</li>
+            <li class="size">Size</li>
+            <li class="qty">Qty</li>
+            <li class="amount">Amount</li>
+            <li class="delete">Delete</li>
+        </div>
+    </ul>
+    <section class="wrapperGoodsInfo">
+        <ul class="list-info ">
+            <div class="left__side">
+                    <li class="productPhoto">
+                            <a href="javascript:void(0);" class="photo-lnk"><img src="../../img/Women/coats/1.jpg" alt="" class="clothes-photo"></a>
+                         </li>
+                <li class="products-name" id="counterName">
+                    Some Clothes
+                </li>
+                <li class="articul">1003</li>
+            </div>
+            <div class="right__side second">
+                <li class="color">brown</li>
+                <li class="size">M</li>
+                <li class="qty"> <input type="number" min="1" max="10" value="1" class="number"></li>
+                <li class="ammount">$ 39.99</li>
+                <li class="deleteGoods">X</li>
+            </div>
+        </ul>
+    </section> -->

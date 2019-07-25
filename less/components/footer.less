@@ -1,0 +1,73 @@
+.flex__footer {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 30px;
+
+
+.theSame-Width {
+    width: 270px;
+    padding-left: 25px;
+    border-right: 1px solid silver;
+
+    &:last-child {
+        border: none;
+    }
+}
+
+.collection__link,
+.site__lnk,
+.shop__lnk {
+    display: block;
+    text-decoration: none;
+    color: @mainTextColor;
+    font-family: @mainFont;
+    font-size: 0.800em;
+    line-height: 23px;
+}
+.collection__link:hover,
+.site__lnk:hover,
+.shop__lnk:hover {
+    text-decoration: underline;
+}
+.collection__heading,
+.site__heading,
+.shop__heading,
+.social__heading
+    {
+    font-family: @mainFont;
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    color: @mainTextColor;
+}
+
+.signature {
+    color: @mainTextColor;
+    font-family: @mainFont;
+    font-size: 0.800em;
+    line-height: 23px;
+    width: 233px;
+}
+
+.social__networks {
+    padding-top: 20px;
+
+    .twitter,
+    .facebook,
+    .instagram {
+        margin-left: 5px;
+        padding: 8px 10px;
+        border: 1px solid #606060;
+    }
+
+    .fa-twitter,
+    .fa-facebook,
+    .fa-instagram {
+        color: #606060;
+    }
+
+    .twitter {
+        margin: 0;
+    }
+}
+} // .flex__footer's end

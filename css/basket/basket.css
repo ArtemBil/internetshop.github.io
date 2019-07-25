@@ -1,0 +1,252 @@
+.main .shop__bag-heading {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.main .shop__bag-heading .basket-headline {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main .shop__bag-heading .basket-headline__small {
+    font-style: italic;
+    color: #8f9194
+}
+
+.main .basket__wrapper {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.main .basket__wrapper #basketInformation .goods-information {
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-headlines {
+    width: 100%;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-headlines .cell__headlines {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    color: #909090;
+    padding-right: 70px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-headlines .cell__headlines:nth-child(1) {
+    text-transform: uppercase;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-headlines .cell__headlines:nth-child(2) {
+    padding-right: 0px;
+    width: 555px;
+    text-align: left;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-headlines .cell__headlines:last-child {
+    padding-right: 5px;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods {
+    border-top: 1px solid gray;
+    position: relative;
+
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods .cell-info__goods--product .link {
+    border: 1px solid #a7a7a7;
+    width: 100px;
+    display: block;
+    margin-left: 5px;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods .cell-info__goods--description {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods .cell-info__goods--product .goods-photo {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods .cell-info__goods--delete .delete {
+    font-size: 1.5em;
+    font-family: 'Lato', serif;
+    cursor: pointer;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods .cell-info__goods--delete .delete:hover {
+    color: #ff0000;
+}
+
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods {
+
+    line-height: 150px;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods .cell-info__goods {
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods .cell-info__goods:nth-child(4) {
+    padding-left: 13px;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods .cell-info__goods:nth-child(5) {
+    padding-right: 65px;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods .cell-info__goods:nth-child(6) {
+    padding-left: 15px;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods .cell-info__goods:nth-child(7) {
+    padding-left: 19px;
+}
+
+.qty {
+    width: 30px;
+    border: none;
+    margin-left: 10px;
+}
+
+.block-sendOrder {
+    text-align: right;
+}
+
+.main .basket__wrapper .block-sendOrder .send-form,
+.main .basket__wrapper .block-sendOrder .continue {
+    display: inline-block;
+}
+
+.main .basket__wrapper .block-sendOrder .block-subtotal {
+    padding-right: 150px;
+    margin-bottom: 60px;
+}
+
+.main .basket__wrapper .block-sendOrder .continue {
+    color: #303030;
+    text-decoration: none;
+}
+
+.main .basket__wrapper .block-sendOrder .continue:hover {
+    text-decoration: underline;
+}
+
+.main .basket__wrapper .block-sendOrder .block-subtotal .subtotal-headline #exact-amount {
+    padding-left: 50px;
+}
+
+.main .basket__wrapper .block-sendOrder .block-subtotal .subtotal-headline .curency {
+    color: #ffa500;
+}
+
+.main .basket__wrapper .block-sendOrder .send-form {
+    margin-left: 70px;
+}
+
+.main .block-sendOrder .wrapper-subotal {
+    margin-bottom: 30px;
+    background: #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.main .basket__wrapper .block-sendOrder .send-form .btn-sending {
+    padding: 15px 45px;
+    color: white;
+    text-transform: uppercase;
+    background: #c58307;
+    border: 1px solid #b97a04;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main .basket__wrapper .block-sendOrder .send-form .btn-sending:hover {
+    background: #a8781f;
+}
+
+.main .basket__wrapper .block-sendOrder .send-form .btn-sending:active {
+    -webkit-box-shadow: inset 14px 10px 70px 3px rgba(20, 0, 20, 1);
+    -moz-box-shadow: inset 14px 10px 70px 3px rgba(20, 0, 20, 1);
+    box-shadow: inset 14px 10px 70px 3px rgba(20, 0, 20, 1);
+}
+
+
+.main .basket__wrapper .block-sendOrder .block-subtotal .subtotal-headline {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.main .basket__wrapper .block-sendOrder .block-subtotal .subtotal-headline #exact-amount {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: #ffa500;
+}
+
+.main .basket__wrapper .wrapperGoodsInfo .productPhoto {
+    width: 100px;
+}
+
+.main .basket__wrapper #basketInformation .list-info .left__side .productPhoto .clothes-photo {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+.articul {
+    display: block;
+}
+
+.main .basket__wrapper #basketInformation .list-info .left__side.second {
+    padding-right: 20px;
+}
+.emptyBasket {
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    color: rgba(73, 72, 72, .7);
+    font-size: 1.665em;
+}
+
+/* 
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods .cell-info__goods:nth-child(4) {
+    padding-left: 13px;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods .cell-info__goods:nth-child(5) {
+
+    text-align: center;
+	width: 25px;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods .cell-info__goods:nth-child(6) {
+    padding-left: 15px;
+}
+
+.main .basket__wrapper #basketInformation .goods-information .row-info__goods .cell-info__goods:nth-child(7) {
+    padding-left: 19px;
+} */

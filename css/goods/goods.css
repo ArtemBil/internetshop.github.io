@@ -1,0 +1,177 @@
+body {
+    box-sizing: border-box;
+}
+
+.goods__main {
+    margin-top: 50px;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+border-bottom: 1px solid silver;
+padding-bottom: 100px;
+}
+
+.wrapper__small__main {
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+.goods__block {
+    position: relative;
+}
+
+.wrapper__small {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    border: 1px solid silver;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+.image__style.active {
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    /* width: 298px;
+    height: 642px;
+    border: 1px solid black; */
+}
+
+.image__style-small{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    /* pointer-events: none; */
+}
+
+.goods__heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #303030;
+    font-size: 1.55em;
+    padding-top: 30px;
+}
+.goods__articul {
+    font-style: italic;
+    font-family: "Lato", sans-serif;
+    color: #d6cdcd;
+
+}
+
+.goods__price {
+    padding-top: 15px;
+    color: #303030;
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+.block__sending {
+    padding-top: 30px;
+}
+
+.block__sending .some__description {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.block__sending .size__heading {
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #606060;
+    font-size: 1em;
+    padding-top: 20px;
+}
+.block__sending #sizes {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.block__sending #sizes .checkbox-wrapper .size__checkbox-hidden {
+    display: none;
+
+    /* margin-right: 10px;
+    padding: 10px 10px;
+    border: 1px solid #959595;
+    cursor: pointer; */
+}
+
+.block__sending #sizes .checkbox-wrapper {
+    display: block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.block__sending #sizes .checkbox-wrapper .new-checkbox {
+    display: block;
+    margin-right: 10px;
+    padding: 5px 15px;
+    border: 1px solid #959595;
+    cursor: pointer;
+}
+.block__sending #sizes .checkbox-wrapper .new-checkbox:hover {
+    border: 1px solid #1ace03;
+    background: #1adf00;
+    color: #ffffff;
+}
+
+
+.block__sending #sizes .new-checkbox:last-child {
+    margin-right: 0;
+} 
+
+.size__checkbox-hidden:checked ~ .new-checkbox{
+    background: #1adf00;
+    color: white;
+}
+
+.block__sending .error-size {
+    color: red;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+.block__sending .error-size.hidden {
+   display: none;
+}
+
+.block__sending .btn-style {
+    margin-top: 30px;
+    border: 1px solid #e67429;
+    background-color: #f68236;
+    padding: 15px 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.block__sending .btn-style:hover {
+    background-color: #f16100;
+}
+.block__sending .btn-style:active {
+    -webkit-box-shadow: inset -1px -4px 43px 8px rgba(0,0,0,0.6);
+    -moz-box-shadow: inset -1px -4px 43px 8px rgba(0,0,0,0.6);
+    box-shadow: inset -1px -4px 43px 8px rgba(0,0,0,0.6);
+}
+
+.lower__slider {
+    padding-top: 50px !important;
+}
+
+.tabs-lnk {
+    width: 100%;
+    /* pointer-events: none; */
+}
+
+/* Этот клас навешивается на активный(нажатый) li элемент.
+Не доделан код */
+.active {
+    border: 1px solid green;
+    transition: all 1s;
+}

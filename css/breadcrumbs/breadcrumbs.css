@@ -1,0 +1,21 @@
+.main .breadcrumb {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.main .breadcrumb .breadcrumb__item{
+    display: inline-block;
+}
+.main .breadcrumb .breadcrumb__item::after{
+    content: "/";
+}
+
+.main .breadcrumb .breadcrumb__item .breadcrumb__lnk{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #303030;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+

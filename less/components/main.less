@@ -1,0 +1,171 @@
+.main {
+  .wrapper__slider {
+    .hazy__heading {
+      text-align: center;
+      font-family: @mainFont;
+      color: #303030;
+      font-size: 4.5em;
+      font-weight: 400;
+      margin-top: 120px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    .small__heading {
+      text-align: center;
+      font-family: @mainFont;
+      color: #303030;
+      font-style: italic;
+      font-size: 1.25em;
+      letter-spacing: 1.2px;
+      opacity: .7;
+    }
+
+    .btn__wrapper {
+      text-align: center;
+      margin-top: 70px;
+
+      .btn__Check-new-arrivals {
+        padding: 20px 60px;
+        background: none;
+        border: 1px solid silver;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 0.6s;
+
+        &:hover {
+          background-color: rgb(34, 32, 32);
+          color: rgb(224, 255, 246);
+        }
+      }
+    }
+  }
+
+  // end of wripper__slider
+  .flex__images {
+    margin-top: 150px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .image__item {
+      display: block;
+      width: 285px;
+      height: 295px;
+      transition: .5s;
+      &:nth-child(2):hover {
+        opacity: 0.8;
+      }
+
+      &:nth-child(4):hover {
+        opacity: 0.6;
+      }
+
+      &:nth-child(5):hover {
+        opacity: 0.6;
+      }
+
+      &:nth-child(7):hover {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  //flex_images' end
+  .signUp__wrapper {
+    .signUp__heading {
+      font-family: @mainFont;
+      font-size: 2.25em;
+      text-transform: uppercase;
+      color: @mainTextColor;
+      text-align: center;
+      padding-top: 100px;
+      letter-spacing: 1.8px;
+      font-weight: 700;
+    }
+    .signUp__heading-small {
+      text-align: center;
+      font-style: italic;
+      font-family: @mainFont;
+      color: #606060;
+      letter-spacing: 0.9px;
+    }
+    .signUp__form {
+      text-align: center;
+      padding-top: 55px;
+      .sign__input {
+        padding: 15px 230px 15px 10px;
+        margin-right: -4px;
+        font-style: italic;
+      }
+      .sign__btn {
+        border: 1px solid #e67429;
+        background: #f68236;
+        padding: 16px 35px 16px 35px;
+        cursor: pointer;
+        &:hover {
+          background: #ff7011;
+        }
+      }
+    }
+  } //.signUp__wrapper's end
+  .lower__slider {
+    max-width: 1200px;
+    padding: 120px 0 0 0;
+    overflow: hidden;
+    display: block;
+    .double__wrapper {
+      position: relative;
+      .photo__list {
+        position: relative;
+        width: 9999px;
+        left: 0;
+        &::after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .photo__list-item {
+          float: left;
+          .photo__item {
+            
+            width: 200px;
+            height: 120px;
+          }
+        }
+      }
+      .arrow__left,
+      .arrow__right {
+        width: auto;
+        height: 79%;
+        background: #ffffff;
+        opacity: 0.6;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 2em;
+      }
+
+      .arrow__left {
+        position: absolute;
+        top: 0;
+        .arrow__center {
+          position: absolute;
+          top: 40px;
+          left: 1px;
+        }
+      }
+      .arrow__right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        .arrow__center {
+          position: absolute;
+          right: 1px;
+          top: 40px;
+        }
+      }
+    }
+  }// .lower__slider's end
+} // main's end
